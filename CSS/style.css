@@ -1,0 +1,386 @@
+/*custom css to extend framework */
+
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+h1 {
+    color: blue;
+}
+
+/* index page */
+.hero-section {
+    background: linear-gradient(135deg, #5c0922 0%, #764ba2 100%);
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* Custom styles for thesecond button */
+.colour {
+    background: linear-gradient(135deg, #5c0922 0%, #764ba2 100%);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.colour:hover {
+    background: linear-gradient(135deg, #661ab1 0%, #9b2c2c 100%);
+    transform: translateY(-4px);
+
+}
+
+
+
+.colour i {
+    transition: transform 0.3s ease;
+}
+
+
+
+#secondButton {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+/* data manipulat page */
+
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #5c0922 0%, #764ba2 100%);
+            border-radius: 10px;
+            
+        }
+
+        .notes {
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .optionsNote {
+            background: #062c39;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-right: 4px solid #5c0922;
+            border-left: 4px solid #764ba2;
+            font-size: 20px;
+        }
+
+        .colour-table {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            margin-bottom: 30px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        .colour-column {
+            flex: 1;
+            min-width: 150px;
+            background: #2c49a2;
+            border-radius: 10px;
+            overflow: hidden;
+
+
+        }
+
+        .colour-header {
+
+            text-align: center;
+            padding: 15px 10px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+
+        }
+
+        .colour-shade {
+            display: flex;
+            align-items: center;
+            padding: 8px 12px;
+            cursor: pointer;
+            border-bottom: 2px solid #000000;
+        }
+
+        .colour-shade.selected {
+            background-color: #821e1e;
+        }
+
+        .colour-preview {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 12px;
+            border: 2px solid rgb(7, 7, 7);
+
+        }
+
+
+
+        .selection-limit {
+            color: #e74c3c;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 15px;
+            padding: 10px;
+            background: #d7e191;
+            border-radius: 5px;
+            display: none;
+        }
+
+        .theme-button {
+            display: block;
+            margin: 20px auto;
+            padding: 12px 20px;
+            background: #2c49a2;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+
+        .theme-button:hover {
+            background-color: #eadb03;
+            color: white;
+        }
+
+        .theme-display {
+            background: #2c49a2;
+            padding: 25px;
+            border-radius: 10px;
+
+            margin-top: 20px;
+            margin-bottom: 60px;
+            display: none;
+        }
+
+        .theme-display h2 {
+
+            color: #ffffff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .theme-colours {
+            display: flex;
+            height: 120px;
+            border-radius: 5px;
+        }
+
+        .theme-colour {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+
+        }
+
+
+
+
+
+
+
+
+
+
+/* about page info*/
+    
+   q {
+  color: rgb(185, 64, 177);
+  font-style: italic;
+   }
+    
+
+   .about-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+   }
+
+ .info {
+    background-color: rgba(31, 41, 55, 0.5);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+   
+    }
+
+
+
+  .about-icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+    color: #60a5fa;
+   }
+
+   .info-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+   }
+
+  .info-description {
+    margin-bottom: 20px;
+    
+  }
+
+   .list {
+    list-style-type: disc;
+    padding-left: 30px;
+  }
+
+  .list li {
+    margin-bottom: 10px;
+    
+   }
+
+ .special-text {
+    color: #fbbf24;
+    
+   }
+
+
+   
+/* about page */
+
+
+ #colorButton {
+            padding: 10px 10px;
+            font-size: 16px;
+            background-color:rgba(31, 41, 55, 0.5);
+            margin-top: 3px;
+            
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        #colorButton:hover {
+            background: linear-gradient(135deg, #661ab1 0%, #9b2c2c 100%);
+            transform: scale(1.05);
+        }
+
+
+
+
+
+
+
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 8px;
+    color: #faf7f7;
+    font-size: 20px;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
+
+/* Color palette container */
+.cpalette {
+    margin-top: 30px;
+    display: grid;
+
+    gap: 20px;
+}
+
+/* Card css about page*/
+
+
+.card {
+    background-color: #374151;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #4b5563;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+
+}
+
+.card .text {
+    padding: 20px;
+}
+
+.card h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #d1d5db;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+
+.warning {
+    color: #f87171;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 18px;
+}
+
+
+#container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
